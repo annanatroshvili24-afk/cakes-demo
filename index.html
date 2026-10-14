@@ -134,9 +134,6 @@
   .hero__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); margin-top: var(--v-6); }
   .hero__tel { text-decoration: none; color: var(--v-ink); font-size: var(--v-t-sm); display: inline-flex; align-items: center; min-height: 44px; gap: .35em; }
   .hero__tel b { font-weight: 500; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .18em; }
-  /* первый экран: тёмный текст зелёным по просьбе Анны (5,8:1 на холсте) */
-  .hero__copy { --hero-green: #2d6a45; }
-  .hero__copy .v-display, .hero__copy .v-lede, .hero__copy .hero__tel { color: var(--hero-green); }
   @media (max-height: 760px) and (min-width: 861px) { .hero__copy .v-display { font-size: var(--v-t-2xl); } .hero__copy { bottom: clamp(3.5rem, 10vh, 6rem); } }
   @media (max-width: 860px) {
     .hero__back img { object-position: 50% 62%; }
